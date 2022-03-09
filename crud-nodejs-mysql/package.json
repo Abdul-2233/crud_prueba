@@ -1,0 +1,30 @@
+{
+  "name": "crud-nodejs-mysql",
+  "version": "1.0.0",
+  "description": "Basic app crud with nodejs n mysql as db.",
+  "main": "index.js",
+  "dependencies": {
+    "ejs": "^2.7.4",
+    "express": "^4.17.2",
+    "express-myconnection": "^1.0.4",
+    "morgan": "^1.10.0",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "scripts": {
+    "dev": "nodemon src/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rsancho64/crud-nodejs-mysql.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rsancho64/crud-nodejs-mysql/issues"
+  },
+  "homepage": "https://github.com/rsancho64/crud-nodejs-mysql#readme"
+}
